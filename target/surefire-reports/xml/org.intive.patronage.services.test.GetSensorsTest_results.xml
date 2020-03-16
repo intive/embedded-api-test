@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4,667">
+           time="3,984">
   <properties />
   
   
-            <testcase name="getSensorsTest" time="4,667" classname="org.intive.patronage.services.test.GetSensorsTest" />
+            <testcase name="getSensorsTest" time="3,984" classname="org.intive.patronage.services.test.GetSensorsTest" />
       
 </testsuite>

@@ -18,7 +18,7 @@
                   <p style='color: black; font-size: 13px;font-family:Lucida Sans Unicode, Lucida Grande, sans-serif'>Get sensors</p>
                         <b><a target="_blank" href="https://tracker.intive.com/jira/browse/PATRON2020-00">https://tracker.intive.com/jira/browse/PATRON2020-00</a></b><br>
                         <a href="javascript:toggleElement('getSensorsTestRequest', 'block')"><b>Request:</b></a><div id="getSensorsTestRequest" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP method: </b>GET<br><b>HTTP headers: </b><br>Accept: application/json<br><br><b>URL: </b>https://patronage20-concept-master.herokuapp.com/dashboard<br><b>Request body: </b><br><br></div><br>
-                        <br><a href="javascript:toggleElement('getSensorsTestResponse', 'block')"><b>Response:</b></a><div id="getSensorsTestResponse" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP status: </b>200<br><b>Response headers: </b><br>Server=Cowboy<br>Connection=keep-alive<br>Access-Control-Allow-Origin=*<br>Access-Control-Allow-Headers=*<br>Access-Control-Allow-Credentials=true<br>Access-Control-Expose-Headers=*<br>Sl-Violations=[{"location":["response","body","RFIDSensors[0]","lastTag","id"],"severity":"Error","code":"format","message":"should match format \"int64\""},{"location":["response","body","RFIDSensors[0]","lastTag","timestamp"],"severity":"Error","code":"format","message":"should match format \"int64\""}]<br>Content-Type=application/json<br>Content-Length=854<br>Date=Mon, 16 Mar 2020 11:00:53 GMT<br>Via=1.1 vegur<br><br><b>Response body: </b><br>{
+                        <br><a href="javascript:toggleElement('getSensorsTestResponse', 'block')"><b>Response:</b></a><div id="getSensorsTestResponse" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP status: </b>200<br><b>Response headers: </b><br>Server=Cowboy<br>Connection=keep-alive<br>Access-Control-Allow-Origin=*<br>Access-Control-Allow-Headers=*<br>Access-Control-Allow-Credentials=true<br>Access-Control-Expose-Headers=*<br>Sl-Violations=[{"location":["response","body","RFIDSensors[0]","lastTag","id"],"severity":"Error","code":"format","message":"should match format \"int64\""},{"location":["response","body","RFIDSensors[0]","lastTag","timestamp"],"severity":"Error","code":"format","message":"should match format \"int64\""}]<br>Content-Type=application/json<br>Content-Length=854<br>Date=Mon, 16 Mar 2020 20:10:18 GMT<br>Via=1.1 vegur<br><br><b>Response body: </b><br>{
     "temperatureSensors": [
         {
             "id": -2147483648,
@@ -85,7 +85,22 @@
             "value": -2147483648
         }
     ]
-}<br><b>Response time: </b><br>1955<br></div><br><br>
+}<br><b>Response time: </b><br>1336<br></div><br><br>
+                        <p style='color: black; font-size: 13px;font-family:Lucida Sans Unicode, Lucida Grande, sans-serif'>Get notifications</p>
+                        <b><a target="_blank" href="https://tracker.intive.com/jira/browse/PATRON2020-00">https://tracker.intive.com/jira/browse/PATRON2020-00</a></b><br>
+                        <a href="javascript:toggleElement('getNotificationsTestRequest', 'block')"><b>Request:</b></a><div id="getNotificationsTestRequest" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP method: </b>GET<br><b>HTTP headers: </b><br>Accept: application/json<br><br><b>URL: </b>https://patronage20-concept-master.herokuapp.com/notifications<br><b>Request body: </b><br><br></div><br>
+                        <br><a href="javascript:toggleElement('getNotificationsTestResponse', 'block')"><b>Response:</b></a><div id="getNotificationsTestResponse" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP status: </b>200<br><b>Response headers: </b><br>Server=Cowboy<br>Connection=keep-alive<br>Access-Control-Allow-Origin=*<br>Access-Control-Allow-Headers=*<br>Access-Control-Allow-Credentials=true<br>Access-Control-Expose-Headers=*<br>Sl-Violations=[{"location":["response","body","id"],"severity":"Error","code":"format","message":"should match format \"int64\""},{"location":["response","body","timestamp"],"severity":"Error","code":"format","message":"should match format \"int64\""},{"location":["response","body","sensorId"],"severity":"Error","code":"format","message":"should match format \"int64\""}]<br>Content-Type=application/json<br>Content-Length=109<br>Date=Mon, 16 Mar 2020 20:10:21 GMT<br>Via=1.1 vegur<br><br><b>Response body: </b><br>[
+    {
+        "id": -9223372036854776000,
+        "timestamp": -9223372036854776000,
+        "type": "alert",
+        "sensorId": -9223372036854776000
+    }
+]<br><b>Response time: </b><br>519<br></div><br><br>
+                        <p style='color: black; font-size: 13px;font-family:Lucida Sans Unicode, Lucida Grande, sans-serif'>Delete notifications</p>
+                        <b><a target="_blank" href="https://tracker.intive.com/jira/browse/PATRON2020-00">https://tracker.intive.com/jira/browse/PATRON2020-00</a></b><br>
+                        <a href="javascript:toggleElement('deleteNotificationsTestRequest', 'block')"><b>Request:</b></a><div id="deleteNotificationsTestRequest" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP method: </b>DELETE<br><b>HTTP headers: </b><br><br><b>URL: </b>https://patronage20-concept-master.herokuapp.com/notifications/-922337203685477600<br><b>Request body: </b><br><br></div><br>
+                        <br><a href="javascript:toggleElement('deleteNotificationsTestResponse', 'block')"><b>Response:</b></a><div id="deleteNotificationsTestResponse" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP status: </b>200<br><b>Response headers: </b><br>Server=Cowboy<br>Connection=keep-alive<br>Access-Control-Allow-Origin=*<br>Access-Control-Allow-Headers=*<br>Access-Control-Allow-Credentials=true<br>Access-Control-Expose-Headers=*<br>Date=Mon, 16 Mar 2020 20:10:22 GMT<br>Content-Length=0<br>Via=1.1 vegur<br><br><b>Response body: </b><br><br><b>Response time: </b><br>431<br></div><br><br>
             </div>
 
 </body>

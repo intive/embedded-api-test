@@ -7,4 +7,16 @@
             <class name="org.intive.patronage.services.test.GetSensorsTest"/>
         </classes>
     </test>
+    <test name="[GET /Notifications]">
+        <parameter name="GetNotificationsTest" value="getNotifications.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetNotificationsTest"/>
+        </classes>
+    </test>
+    <test name="[DELETE /Notifications/id]">
+        <parameter name="DeleteNotificationsTest" value="deleteNotifications.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.DeleteNotificationsTest"/>
+        </classes>
+    </test>
 </suite>

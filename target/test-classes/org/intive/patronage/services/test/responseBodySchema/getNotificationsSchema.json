@@ -1,0 +1,25 @@
+{
+  "type": "array",
+  "items": {
+    "required": [
+      "id",
+      "timestamp",
+      "type",
+      "sensorId"
+    ],
+    "properties": {
+      "id": {
+        "type": "integer"
+      },
+      "timestamp": {
+        "type": "integer"
+      },
+      "type": {
+        "type": "string"
+      },
+      "sensorId": {
+        "type": "integer"
+      }
+    }
+  }
+}

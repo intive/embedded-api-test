@@ -1,0 +1,18 @@
+[
+  {
+    "testCaseName": "Delete notifications",
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-00",
+    "testId": "deleteNotificationsTest",
+    "resourceCorrelationId": "notifications deleting",
+    "requestData":{
+      "httpMethod": "DELETE",
+      "baseUri": "https://patronage20-concept-master.herokuapp.com",
+      "path": "/notifications/-922337203685477600",
+      "headers": {
+      }
+    },
+    "responseData": {
+      "httpStatus": 200
+    }
+  }
+]

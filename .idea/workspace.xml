@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59b6c8f7-33f2-46ee-a97f-202aa08aadab" name="Default Changelist" comment="" />
+    <list default="true" id="59b6c8f7-33f2-46ee-a97f-202aa08aadab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/embededApiTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/embededApiTestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-03-16T12-00-50_191.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/xml/org.intive.patronage.services.test.GetSensorsTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/org.intive.patronage.services.test.GetSensorsTest_results.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,9 +62,17 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584356497840">
+    <state x="406" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584388745314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584356497840" />
+    <state x="406" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1584388745314" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1584382055560">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584382055560" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1584389139995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584389139995" />
   </component>
 </project>

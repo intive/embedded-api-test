@@ -1,0 +1,21 @@
+[
+  {
+    "testCaseName": "Get notifications",
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-00",
+    "testId": "getNotificationsTest",
+    "resourceCorrelationId": "notifications status",
+    "requestData":{
+      "httpMethod": "GET",
+      "baseUri": "https://patronage20-concept-master.herokuapp.com",
+      "path": "/notifications",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    "responseData": {
+      "httpStatus": 200,
+      "jsonSchemaFileName": "getNotificationsSchema.json",
+      "jsonValuesFileName": "getNotificationsValues.json"
+    }
+  }
+]

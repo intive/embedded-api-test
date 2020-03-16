@@ -1,1 +1,3 @@
+org\intive\patronage\services\test\GetNotificationsTest.class
+org\intive\patronage\services\test\DeleteNotificationsTest.class
 org\intive\patronage\services\test\GetSensorsTest.class

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="[DELETE /Notifications/id]"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0,484">
+  <properties />
+  
+  
+            <testcase name="deleteNotificationsTest" time="0,484" classname="org.intive.patronage.services.test.DeleteNotificationsTest" />
+      
+</testsuite>
