@@ -1,0 +1,21 @@
+[
+  {
+    "testCaseName": "Get sensors",
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-00",
+    "testId": "getSensorsTest",
+    "resourceCorrelationId": "all sensors",
+    "requestData":{
+      "httpMethod": "GET",
+      "baseUri": "https://patronage20-concept-master.herokuapp.com",
+      "path": "/dashboard",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    "responseData": {
+      "httpStatus": 200,
+      "jsonSchemaFileName": "getSensorsSchema.json",
+      "jsonValuesFileName": "getSensorsValues.json"
+    }
+  }
+]

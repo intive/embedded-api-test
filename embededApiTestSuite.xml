@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Embeded - GET response test" configfailurepolicy="continue">
+    <test name="[GET /dashboard]">
+        <parameter name="GetSensorsTest" value="getSensors.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetSensorsTest"/>
+        </classes>
+    </test>
+</suite>

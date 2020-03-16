@@ -1,0 +1,602 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "required": [
+    "temperatureSensors",
+    "windowSensors",
+    "windowBlinds",
+    "RFIDSensors",
+    "smokeSensors",
+    "HVACStatus",
+    "HVACRooms",
+    "lights"
+  ],
+  "properties": {
+    "temperatureSensors": {
+      "$id": "#/properties/temperatureSensors",
+      "type": "array",
+      "title": "The Temperaturesensors Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/temperatureSensors/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "value": -2147483648.0,
+            "id": -2147483648.0,
+            "type": "temperatureSensor"
+          }
+        ],
+        "required": [
+          "id",
+          "type",
+          "value"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/temperatureSensors/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "type": {
+            "$id": "#/properties/temperatureSensors/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "temperatureSensor"
+            ]
+          },
+          "value": {
+            "$id": "#/properties/temperatureSensors/items/properties/value",
+            "type": "integer",
+            "title": "The Value Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          }
+        }
+      }
+    },
+    "windowSensors": {
+      "$id": "#/properties/windowSensors",
+      "type": "array",
+      "title": "The Windowsensors Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/windowSensors/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "status": "open",
+            "id": -2147483648.0,
+            "type": "windowSensor"
+          }
+        ],
+        "required": [
+          "id",
+          "type",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/windowSensors/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "type": {
+            "$id": "#/properties/windowSensors/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "windowSensor"
+            ]
+          },
+          "status": {
+            "$id": "#/properties/windowSensors/items/properties/status",
+            "type": "string",
+            "title": "The Status Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "open"
+            ]
+          }
+        }
+      }
+    },
+    "windowBlinds": {
+      "$id": "#/properties/windowBlinds",
+      "type": "array",
+      "title": "The Windowblinds Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/windowBlinds/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "id": -2147483648.0,
+            "type": "windowBlind",
+            "position": -2147483648.0
+          }
+        ],
+        "required": [
+          "id",
+          "type",
+          "position"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/windowBlinds/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "type": {
+            "$id": "#/properties/windowBlinds/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "windowBlind"
+            ]
+          },
+          "position": {
+            "$id": "#/properties/windowBlinds/items/properties/position",
+            "type": "integer",
+            "title": "The Position Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          }
+        }
+      }
+    },
+    "RFIDSensors": {
+      "$id": "#/properties/RFIDSensors",
+      "type": "array",
+      "title": "The Rfidsensors Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/RFIDSensors/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "lastTag": {
+              "id": -9.223372036854776e+18,
+              "type": "RFIDTag",
+              "timestamp": -9.223372036854776e+18
+            },
+            "id": -2147483648.0,
+            "type": "RFIDSensor"
+          }
+        ],
+        "required": [
+          "id",
+          "type",
+          "lastTag"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/RFIDSensors/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "type": {
+            "$id": "#/properties/RFIDSensors/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "RFIDSensor"
+            ]
+          },
+          "lastTag": {
+            "$id": "#/properties/RFIDSensors/items/properties/lastTag",
+            "type": "object",
+            "title": "The Lasttag Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "type": "RFIDTag",
+                "timestamp": -9.223372036854776e+18,
+                "id": -9.223372036854776e+18
+              }
+            ],
+            "required": [
+              "id",
+              "type",
+              "timestamp"
+            ],
+            "properties": {
+              "id": {
+                "$id": "#/properties/RFIDSensors/items/properties/lastTag/properties/id",
+                "type": "integer",
+                "title": "The Id Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  -9223372036854775808
+                ]
+              },
+              "type": {
+                "$id": "#/properties/RFIDSensors/items/properties/lastTag/properties/type",
+                "type": "string",
+                "title": "The Type Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "RFIDTag"
+                ]
+              },
+              "timestamp": {
+                "$id": "#/properties/RFIDSensors/items/properties/lastTag/properties/timestamp",
+                "type": "integer",
+                "title": "The Timestamp Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  -9223372036854775808
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "smokeSensors": {
+      "$id": "#/properties/smokeSensors",
+      "type": "array",
+      "title": "The Smokesensors Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/smokeSensors/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "id": -2147483648.0,
+            "isSmokeDetected": true,
+            "type": "smokeSensor"
+          }
+        ],
+        "required": [
+          "id",
+          "type",
+          "isSmokeDetected"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/smokeSensors/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "type": {
+            "$id": "#/properties/smokeSensors/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "smokeSensor"
+            ]
+          },
+          "isSmokeDetected": {
+            "$id": "#/properties/smokeSensors/items/properties/isSmokeDetected",
+            "type": "boolean",
+            "title": "The Issmokedetected Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": false,
+            "examples": [
+              true
+            ]
+          }
+        }
+      }
+    },
+    "HVACStatus": {
+      "$id": "#/properties/HVACStatus",
+      "type": "object",
+      "title": "The Hvacstatus Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "cooling": true,
+          "type": "HVACStatus",
+          "heating": true
+        }
+      ],
+      "required": [
+        "type",
+        "heating",
+        "cooling"
+      ],
+      "properties": {
+        "type": {
+          "$id": "#/properties/HVACStatus/properties/type",
+          "type": "string",
+          "title": "The Type Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "HVACStatus"
+          ]
+        },
+        "heating": {
+          "$id": "#/properties/HVACStatus/properties/heating",
+          "type": "boolean",
+          "title": "The Heating Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "cooling": {
+          "$id": "#/properties/HVACStatus/properties/cooling",
+          "type": "boolean",
+          "title": "The Cooling Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false,
+          "examples": [
+            true
+          ]
+        }
+      }
+    },
+    "HVACRooms": {
+      "$id": "#/properties/HVACRooms",
+      "type": "array",
+      "title": "The Hvacrooms Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/HVACRooms/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "windowSensorIds": [
+              -2147483648.0
+            ],
+            "cooling-temperature": -2147483648.0,
+            "type": "HVACRoom",
+            "heating-temperature": -2147483648.0,
+            "id": -2147483648.0,
+            "hysteresis": -2147483648.0,
+            "temperatureSensorId": -2147483648.0
+          }
+        ],
+        "required": [
+          "id",
+          "type",
+          "heating-temperature",
+          "cooling-temperature",
+          "hysteresis",
+          "temperatureSensorId",
+          "windowSensorIds"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/HVACRooms/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "type": {
+            "$id": "#/properties/HVACRooms/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "HVACRoom"
+            ]
+          },
+          "heating-temperature": {
+            "$id": "#/properties/HVACRooms/items/properties/heating-temperature",
+            "type": "integer",
+            "title": "The Heating-temperature Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "cooling-temperature": {
+            "$id": "#/properties/HVACRooms/items/properties/cooling-temperature",
+            "type": "integer",
+            "title": "The Cooling-temperature Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "hysteresis": {
+            "$id": "#/properties/HVACRooms/items/properties/hysteresis",
+            "type": "integer",
+            "title": "The Hysteresis Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "temperatureSensorId": {
+            "$id": "#/properties/HVACRooms/items/properties/temperatureSensorId",
+            "type": "integer",
+            "title": "The Temperaturesensorid Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "windowSensorIds": {
+            "$id": "#/properties/HVACRooms/items/properties/windowSensorIds",
+            "type": "array",
+            "title": "The Windowsensorids Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": [],
+            "items": {
+              "$id": "#/properties/HVACRooms/items/properties/windowSensorIds/items",
+              "type": "integer",
+              "title": "The Items Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                -2147483648
+              ]
+            }
+          }
+        }
+      }
+    },
+    "lights": {
+      "$id": "#/properties/lights",
+      "type": "array",
+      "title": "The Lights Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/lights/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "id": -2147483648.0,
+            "type": "RGBLight",
+            "saturation": -2147483648.0,
+            "value": -2147483648.0,
+            "hue": -2147483648.0
+          }
+        ],
+        "required": [
+          "id",
+          "type",
+          "hue",
+          "saturation",
+          "value"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/lights/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "type": {
+            "$id": "#/properties/lights/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "RGBLight"
+            ]
+          },
+          "hue": {
+            "$id": "#/properties/lights/items/properties/hue",
+            "type": "integer",
+            "title": "The Hue Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "saturation": {
+            "$id": "#/properties/lights/items/properties/saturation",
+            "type": "integer",
+            "title": "The Saturation Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          },
+          "value": {
+            "$id": "#/properties/lights/items/properties/value",
+            "type": "integer",
+            "title": "The Value Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+              -2147483648
+            ]
+          }
+        }
+      }
+    }
+  }
+}

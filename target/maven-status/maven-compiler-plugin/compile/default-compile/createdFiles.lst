@@ -1,0 +1,12 @@
+org\intive\patronage\services\test\commons\TestCommons$1.class
+org\intive\patronage\services\test\commons\TestDataReader.class
+org\intive\patronage\services\test\models\common\TestData.class
+org\intive\patronage\services\test\commons\TestCommons$jsonReadMode.class
+org\intive\patronage\services\test\models\common\RequestData.class
+org\intive\patronage\services\test\commons\LocalTestListener.class
+org\intive\patronage\services\test\TestBase.class
+org\intive\patronage\services\test\interfaces\IEmployee.class
+org\intive\patronage\services\test\models\responses\newEmployee\CreateEmployeeResponseModel.class
+org\intive\patronage\services\test\models\common\ResponseData.class
+org\intive\patronage\services\test\models\responses\newEmployee\DataModel.class
+org\intive\patronage\services\test\commons\TestCommons.class

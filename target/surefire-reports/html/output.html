@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Log Output</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <h1>Log Output</h1>
+  <p>
+    Combined output from all calls to the log methods of the <a href="http://testng.org/javadocs/org/testng/Reporter.html">TestNG Reporter</a>.    
+  </p>
+
+  <div id="log">
+                  <p style='color: black; font-size: 13px;font-family:Lucida Sans Unicode, Lucida Grande, sans-serif'>Get sensors</p>
+                        <b><a target="_blank" href="https://tracker.intive.com/jira/browse/PATRON2020-00">https://tracker.intive.com/jira/browse/PATRON2020-00</a></b><br>
+                        <a href="javascript:toggleElement('getSensorsTestRequest', 'block')"><b>Request:</b></a><div id="getSensorsTestRequest" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP method: </b>GET<br><b>HTTP headers: </b><br>Accept: application/json<br><br><b>URL: </b>https://patronage20-concept-master.herokuapp.com/dashboard<br><b>Request body: </b><br><br></div><br>
+                        <br><a href="javascript:toggleElement('getSensorsTestResponse', 'block')"><b>Response:</b></a><div id="getSensorsTestResponse" style="display: none; width: 1105px; word-wrap: break-word;"><b>HTTP status: </b>200<br><b>Response headers: </b><br>Server=Cowboy<br>Connection=keep-alive<br>Access-Control-Allow-Origin=*<br>Access-Control-Allow-Headers=*<br>Access-Control-Allow-Credentials=true<br>Access-Control-Expose-Headers=*<br>Sl-Violations=[{"location":["response","body","RFIDSensors[0]","lastTag","id"],"severity":"Error","code":"format","message":"should match format \"int64\""},{"location":["response","body","RFIDSensors[0]","lastTag","timestamp"],"severity":"Error","code":"format","message":"should match format \"int64\""}]<br>Content-Type=application/json<br>Content-Length=854<br>Date=Mon, 16 Mar 2020 11:00:53 GMT<br>Via=1.1 vegur<br><br><b>Response body: </b><br>{
+    "temperatureSensors": [
+        {
+            "id": -2147483648,
+            "type": "temperatureSensor",
+            "value": -2147483648
+        }
+    ],
+    "windowSensors": [
+        {
+            "id": -2147483648,
+            "type": "windowSensor",
+            "status": "open"
+        }
+    ],
+    "windowBlinds": [
+        {
+            "id": -2147483648,
+            "type": "windowBlind",
+            "position": -2147483648
+        }
+    ],
+    "RFIDSensors": [
+        {
+            "id": -2147483648,
+            "type": "RFIDSensor",
+            "lastTag": {
+                "id": -9223372036854776000,
+                "type": "RFIDTag",
+                "timestamp": -9223372036854776000
+            }
+        }
+    ],
+    "smokeSensors": [
+        {
+            "id": -2147483648,
+            "type": "smokeSensor",
+            "isSmokeDetected": true
+        }
+    ],
+    "HVACStatus": {
+        "type": "HVACStatus",
+        "heating": true,
+        "cooling": true
+    },
+    "HVACRooms": [
+        {
+            "id": -2147483648,
+            "type": "HVACRoom",
+            "heating-temperature": -2147483648,
+            "cooling-temperature": -2147483648,
+            "hysteresis": -2147483648,
+            "temperatureSensorId": -2147483648,
+            "windowSensorIds": [
+                -2147483648
+            ]
+        }
+    ],
+    "lights": [
+        {
+            "id": -2147483648,
+            "type": "RGBLight",
+            "hue": -2147483648,
+            "saturation": -2147483648,
+            "value": -2147483648
+        }
+    ]
+}<br><b>Response time: </b><br>1955<br></div><br><br>
+            </div>
+
+</body>
+</html>

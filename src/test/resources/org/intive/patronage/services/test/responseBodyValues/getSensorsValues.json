@@ -1,0 +1,68 @@
+{
+  "temperatureSensors": [
+    {
+      "id": -2147483648,
+      "type": "temperatureSensor",
+      "value": -2147483648
+    }
+  ],
+  "windowSensors": [
+    {
+      "id": -2147483648,
+      "type": "windowSensor",
+      "status": "open"
+    }
+  ],
+  "windowBlinds": [
+    {
+      "id": -2147483648,
+      "type": "windowBlind",
+      "position": -2147483648
+    }
+  ],
+  "RFIDSensors": [
+    {
+      "id": -2147483648,
+      "type": "RFIDSensor",
+      "lastTag": {
+        "id": -9223372036854776000,
+        "type": "RFIDTag",
+        "timestamp": -9223372036854776000
+      }
+    }
+  ],
+  "smokeSensors": [
+    {
+      "id": -2147483648,
+      "type": "smokeSensor",
+      "isSmokeDetected": true
+    }
+  ],
+  "HVACStatus": {
+    "type": "HVACStatus",
+    "heating": true,
+    "cooling": true
+  },
+  "HVACRooms": [
+    {
+      "id": -2147483648,
+      "type": "HVACRoom",
+      "heating-temperature": -2147483648,
+      "cooling-temperature": -2147483648,
+      "hysteresis": -2147483648,
+      "temperatureSensorId": -2147483648,
+      "windowSensorIds": [
+        -2147483648
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "id": -2147483648,
+      "type": "RGBLight",
+      "hue": -2147483648,
+      "saturation": -2147483648,
+      "value": -2147483648
+    }
+  ]
+}
